@@ -1,0 +1,105 @@
+/* #menu{
+     text-align: center; 
+     justify-content: center; 
+     background-color: orange; 
+}*/
+h2 {
+    color: rgb(24, 123, 222);
+    text-align: center;
+    text-shadow: 5px 4px 2px black;
+    font-size: 35px;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    box-shadow: 0px 5px 5px red, 0px 8px 8px green;
+     text-shadow: -4px -4px 2px rgb(255, 0, 0);
+
+    font-size: 45px;
+    /* flex-wrap: wrap; */
+}
+
+#plist {
+    /* display: flex; */
+    margin-left: 40%;
+    color: blue;
+}
+#plist2{
+    margin-left: 40%;
+    color: blue;
+}
+#plist3{
+    margin-left: 40%;
+    color: blue;
+}
+#plist4{
+    margin-left: 40%;
+    color: blue;
+}
+li {
+    /* display: flex; */
+    /* display: block; */
+    margin-left: 38.7%;
+}
+
+ul {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    h1 {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    h1 {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #plist {
+        font-size: small;
+    }
+
+    li {
+        font-size: x-small;
+    }
+}
